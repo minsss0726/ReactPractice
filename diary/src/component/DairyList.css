@@ -1,0 +1,52 @@
+.DiaryList .menu_wrapper {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.DiaryList .left_col select {
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ececec;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  font-family: "Nanum Pen Script";
+  font-size: 21px;
+}
+
+.DiaryList .menu_wrapper .right_col {
+  flex-grow: 1;
+}
+
+.DiaryList .menu_wrapper .right_col button {
+  width: 100%;
+}
+
+.DiaryList .search-wrapper .search-input {
+  font-size: 21px; width:100%; box-sizing:border-box; padding: 15px; border: none; border-bottom: 1px solid rgb(220, 220, 220); border-radius: 5px; font-family: "Nanum Pen Script";
+}
+
+.DiaryList .search-input:focus {outline: none;}
+
+.DiaryList .observe {
+  height: 20px;
+  background: transparent;
+}
+
+.DiaryList .loading {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}
+
+.DiaryList .loadDone {
+  text-align: center;
+  padding: 20px;
+  color: #999;
+  font-size: 14px;
+}
